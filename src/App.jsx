@@ -1,8 +1,13 @@
 import "./App.css";
-import { Header } from "./components";
+import { Header, HeroSection } from "./components";
 
 function App() {
-  return <Header />;
+  return (
+    <>
+      <Header />
+      <HeroSection />
+    </>
+  );
 }
 
 export default App;
