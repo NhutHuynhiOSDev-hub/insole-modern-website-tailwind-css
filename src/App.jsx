@@ -1,5 +1,10 @@
 import "./App.css";
-import { Header, HeroSection, StatsSection } from "./components";
+import {
+  Header,
+  HeroSection,
+  ServicesSection,
+  StatsSection,
+} from "./components";
 
 function App() {
   return (
@@ -7,6 +12,7 @@ function App() {
       <Header />
       <HeroSection />
       <StatsSection />
+      <ServicesSection />
     </>
   );
 }
