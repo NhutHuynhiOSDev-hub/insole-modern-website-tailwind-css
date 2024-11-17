@@ -1,5 +1,6 @@
 import "./App.css";
 import {
+  AppointmentSection,
   Header,
   HeroSection,
   ServicesSection,
@@ -13,6 +14,7 @@ function App() {
       <HeroSection />
       <StatsSection />
       <ServicesSection />
+      <AppointmentSection />
     </>
   );
 }
