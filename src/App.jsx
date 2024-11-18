@@ -9,6 +9,7 @@ import {
   TeamSection,
   TestimonialsSection,
 } from "./components";
+import Department from "./components/Department";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <TestimonialsSection />
       <TeamSection />
       <FAQSection />
+      <Department />
     </>
   );
 }
