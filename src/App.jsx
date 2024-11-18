@@ -1,6 +1,7 @@
 import "./App.css";
 import {
   AppointmentSection,
+  BlogsSection,
   FAQSection,
   Header,
   HeroSection,
@@ -23,6 +24,7 @@ function App() {
       <TeamSection />
       <FAQSection />
       <Department />
+      <BlogsSection />
     </>
   );
 }
