@@ -5,6 +5,7 @@ import {
   HeroSection,
   ServicesSection,
   StatsSection,
+  TeamSection,
   TestimonialsSection,
 } from "./components";
 
@@ -17,6 +18,7 @@ function App() {
       <ServicesSection />
       <AppointmentSection />
       <TestimonialsSection />
+      <TeamSection />
     </>
   );
 }
