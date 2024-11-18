@@ -26,25 +26,6 @@ const Testimonials = () => {
               }}
               modules={[Pagination]}
               slidesPerView={1}
-              // spaceBetween={20}
-
-              // breakpoints={{
-              //   320: {
-              //     // width: 32r0,
-              //     slidesPerView: 1,
-              //   },
-              //   960: {
-              //     // width: 960,
-              //     slidesPerView: 2,
-              //   },
-              //   1200: {
-              //     // width: 1200,
-              //     slidesPerView: 3,
-              //   },
-              //   1536: {
-              //     slidesPerView: 4,
-              //   },
-              // }}
               onSlideChange={() => console.log("slide change")}
               onSwiper={(swiper) => console.log(swiper)}
             >
