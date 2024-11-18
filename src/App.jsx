@@ -13,6 +13,7 @@ import {
   TeamSection,
   TestimonialsSection,
 } from "./components";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
       <BlogsSection />
       <BrandsSection />
       <NewsLetterSection />
+      <Footer />
     </>
   );
 }
