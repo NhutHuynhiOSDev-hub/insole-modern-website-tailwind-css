@@ -85,12 +85,12 @@ const Team = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className=" h-full w-full mx-auto">
-                <div className="flex flex-col lg:flex-row items-center gap-5">
+              <div className="h-full w-full mx-auto">
+                <div className="bg-red-200 flex flex-col lg:flex-row items-center gap-5">
                   <div>
                     <img src={teamImg02} alt="team-img" />
                   </div>
-                  <div className="container flex-1 flex-col items-start text-center lg:text-start">
+                  <div className="bg-yellow-200 container flex-1 flex-col items-start text-center lg:text-start">
                     <h4 className="h4 mb-[10px]">Dr. Zachary Brown</h4>
                     <div className="font-medium uppercase text-[#9ab4b7] tracking-[2.24px] mb-[20px]">
                       Cardiologist

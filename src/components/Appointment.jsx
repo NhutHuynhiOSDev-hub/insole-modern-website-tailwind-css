@@ -19,6 +19,7 @@ const Appointment = () => {
                 <option value="1">Select Department</option>
                 <option value="2">Departmen 1</option>
                 <option value="3">Department 2</option>
+
                 <option value="4">Department 3</option>
               </select>
             </div>
