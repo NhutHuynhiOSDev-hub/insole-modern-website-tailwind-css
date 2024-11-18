@@ -1,8 +1,20 @@
 import "./App.css";
-import { Header } from "./components";
+import {
+  Header,
+  HeroSection,
+  ServicesSection,
+  StatsSection,
+} from "./components";
 
 function App() {
-  return <Header />;
+  return (
+    <>
+      <Header />
+      <HeroSection />
+      <StatsSection />
+      <ServicesSection />
+    </>
+  );
 }
 
 export default App;

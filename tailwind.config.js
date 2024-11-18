@@ -15,7 +15,7 @@ export default {
     },
     extend: {
       colors: {
-        primary: "242a2b",
+        primary: "#242a2b",
         secondary: "#808080",
         accent: {
           DEFAULT: "#1cbccf",
@@ -32,11 +32,11 @@ export default {
         custom2: "0px 0px 30px 0px rgba(8, 73, 81, 0.06)",
       },
       backgroundImage: {
-        servies: "url(../../assets/img/services/bg.svg)",
-        testimonials: "url(../../assets/img/testimonials/bg.svg)",
-        departments: "url(../../assets/img/departments/bg.svg)",
-        quoteLeft: "url(../../assets/icon/testimonials/quote-left.svg)",
-        quoteRight: "url(../../assets/icon/testimonials/quote-right.svg)",
+        servies: "url(./assets/img/services/bg.svg)",
+        testimonials: "url(./assets/img/testimonials/bg.svg)",
+        departments: "url(./assets/img/departments/bg.svg)",
+        quoteLeft: "url(./assets/icon/testimonials/quote-left.svg)",
+        quoteRight: "url(./assets/icon/testimonials/quote-right.svg)",
       },
     },
   },
