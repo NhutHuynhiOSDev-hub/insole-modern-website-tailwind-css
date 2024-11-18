@@ -6,6 +6,7 @@ import Stats from "./Stats";
 import Brands from "./Brands";
 import Header from "./Header";
 import Services from "./Services";
+import NewsLetter from "./NewsLetter";
 import Department from "./Department";
 import Appointment from "./Appointment";
 import Testimonials from "./Testimonials";
@@ -20,6 +21,7 @@ export {
   Brands as BrandsSection,
   Services as ServicesSection,
   Department as DepartmentSection,
+  NewsLetter as NewsLetterSection,
   Appointment as AppointmentSection,
   Testimonials as TestimonialsSection,
 };

@@ -3,15 +3,16 @@ import {
   AppointmentSection,
   BlogsSection,
   BrandsSection,
+  DepartmentSection,
   FAQSection,
   Header,
   HeroSection,
+  NewsLetterSection,
   ServicesSection,
   StatsSection,
   TeamSection,
   TestimonialsSection,
 } from "./components";
-import Department from "./components/Department";
 
 function App() {
   return (
@@ -24,9 +25,10 @@ function App() {
       <TestimonialsSection />
       <TeamSection />
       <FAQSection />
-      <Department />
+      <DepartmentSection />
       <BlogsSection />
       <BrandsSection />
+      <NewsLetterSection />
     </>
   );
 }

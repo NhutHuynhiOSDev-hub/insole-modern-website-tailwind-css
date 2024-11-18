@@ -10,7 +10,7 @@ import { Pagination } from "swiper/modules";
 
 const Testimonials = () => {
   return (
-    <section className="testimonials_section bg-testimonials bg-cover bg-right bg-no-repeat lg:min-h-[600px] py-8 lg:pt-12 ">
+    <section className="testimonials_section bg-testimonials bg-cover max-w-[1466px] mx-auto rounded-[20px] lg:min-h-[600px] py-8 lg:pt-12 ">
       <div className="testimonials_container container mx-auto">
         <div className="flex flex-col lg:flex-row items-center gap-14">
           <div className="hidden lg:flex">

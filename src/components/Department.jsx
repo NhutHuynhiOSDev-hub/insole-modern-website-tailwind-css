@@ -2,7 +2,7 @@ const Department = () => {
   return (
     <section className="department_section py-8 lg:pt-12 ">
       <div
-        className="department_bg bg-departments bg-cover lg:bg-auto bg-center bg-none-repeat max-w-[1466px] rounded-[20px] 
+        className="department_bg bg-departments bg-cover max-w-[1466px] mx-auto rounded-[20px] 
       py-12 lg:pt-[80px] lg:pb-[90px] relative min-h-[588px] flex items-center"
       >
         <div className="department_container container mx-auto">

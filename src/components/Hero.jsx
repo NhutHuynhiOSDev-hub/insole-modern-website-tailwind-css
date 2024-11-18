@@ -2,7 +2,7 @@ import heroImage from "../assets/img/hero/img.png";
 
 const Hero = () => {
   return (
-    <section className="hero py-8 lg:pt-12 lg:pb-0 overflow-hidden">
+    <section className="hero_section py-8 lg:pt-12 lg:pb-0 overflow-hidden">
       <div className="container mx-auto h-full">
         <div className="flex lg:flex-row items-center justify-between h-full">
           <div className="hero_text lg:w-[48%] text-center lg:text-left w-full">
