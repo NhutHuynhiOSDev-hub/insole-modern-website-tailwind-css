@@ -5,9 +5,12 @@ import icService04 from "../assets/icons/services/icon-4.svg";
 
 const Services = () => {
   return (
-    <section className=" services_section py-8 lg:pt-12 ">
+    <section className="services_section py-8 lg:pt-12 ">
       {/* bg  */}
-      <div className="bg-servies bg-cover bg-no-repeat max-w-[1466px] mx-4 lg:mx-auto rounded-[20px] lg:pt-[70px] px-6 lg:px-0 relative h-[368px] flex items-center lg:items-start -z-10">
+      <div
+        className="bg-servies bg-cover bg-no-repeat max-w-[1466px] mx-4 lg:mx-auto rounded-[20px]
+      lg:pt-[70px] px-6 lg:px-0 relative h-[368px] flex items-center lg:items-start -z-10"
+      >
         <div className="container mx-auto">
           <div className="services_top flex flex-col lg:flex-row lg:mb-[60px] items-center">
             <h2 className="h2 text-white flex-1 mb-4 lg:mb-0 text-center lg:text-left">
