@@ -5,7 +5,7 @@ import brand04 from "../assets/img/brands/brand-4.svg";
 import brand05 from "../assets/img/brands/brand-5.svg";
 const Brands = () => {
   return (
-    <section className="blog_section py-8 lg:pt-12 justify-between items-center">
+    <section className="brands_section py-8 lg:pt-12 justify-between items-center">
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row justify-center items-center gap-12">
           <div>
