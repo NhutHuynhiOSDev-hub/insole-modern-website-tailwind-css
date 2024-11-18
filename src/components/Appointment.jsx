@@ -2,7 +2,7 @@ import React from "react";
 
 const Appointment = () => {
   return (
-    <section className="appointment py-8 lg:pt-12 lg:pb-0 overflow-hidden">
+    <section className="appointment py-8 lg:pt-12 overflow-hidden">
       <div className="container mx-auto h-full">
         <h2 className="appointment_title h2 mb-5 lg:mb-[50px] text-center lg:text-left">
           Book Appointment or Call:
