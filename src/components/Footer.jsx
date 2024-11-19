@@ -2,7 +2,7 @@ import logo from "../assets/img/header/logo.svg";
 const Footer = () => {
   return (
     <footer className="footer py-12 lg:pt-[150px]">
-      <div className="container mx-auto pb-12 lg:pb-[100px]">
+      <div className="footer_container container mx-auto pb-12 lg:pb-[100px]">
         <div className="flex flex-col lg:flex-row gap-x-6 gap-y-10">
           <div className="footer_item flex-1">
             <a href="#">
@@ -49,27 +49,33 @@ const Footer = () => {
               {/* List 1 */}
               <ul className="flex-1 flex flex-col gap-5">
                 <li>
-                  <a href="#" className="hover:text-accent transition-all">
+                  <a href="#hero" className="hover:text-accent transition-all">
                     Home
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-accent transition-all">
+                  <a href="#team" className="hover:text-accent transition-all">
                     Doctors
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-accent transition-all">
+                  <a
+                    href="#departments"
+                    className="hover:text-accent transition-all"
+                  >
                     Department
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-accent transition-all">
+                  <a
+                    href="#services"
+                    className="hover:text-accent transition-all"
+                  >
                     Services
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-accent transition-all">
+                  <a href="#blogs" className="hover:text-accent transition-all">
                     Blogs
                   </a>
                 </li>
@@ -82,7 +88,10 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-accent transition-all">
+                  <a
+                    href="#contact"
+                    className="hover:text-accent transition-all"
+                  >
                     Contact
                   </a>
                 </li>
@@ -92,7 +101,7 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-accent transition-all">
+                  <a href="#faq" className="hover:text-accent transition-all">
                     FAQs
                   </a>
                 </li>
@@ -129,7 +138,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="py-[30px] border-t">
+      <div className="pt-[30px] border-t">
         <div className="container mx-auto text-center">
           <div className="font-light text-base">
             &copy; 2024 Insolve - All Right Reserved.

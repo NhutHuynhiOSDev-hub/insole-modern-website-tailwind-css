@@ -1,7 +1,10 @@
 import newsletter from "../assets/img/newsletter/pattern.svg";
 const NewsLetter = () => {
   return (
-    <section className="newsletter_section flex items-center bg-accent relative md:h-[444px] py-8 lg:pt-12 overflow-hidden">
+    <section
+      id="contact"
+      className="newsletter_section flex items-center bg-accent relative md:h-[444px] py-8 lg:pt-12 overflow-hidden"
+    >
       <div className="absolute left-0 bottom-0">
         <img src={newsletter} alt="newsletter_img" />
       </div>

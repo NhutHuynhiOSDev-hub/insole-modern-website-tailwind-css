@@ -5,7 +5,7 @@ import icService04 from "../assets/icons/services/icon-4.svg";
 
 const Services = () => {
   return (
-    <section className="services_section py-8 lg:pt-12 ">
+    <section id="services" className="services_section py-8 lg:pt-12 ">
       {/* bg  */}
       <div
         className="bg-servies bg-cover bg-no-repeat max-w-[1466px] mx-4 lg:mx-auto rounded-[20px]

@@ -3,14 +3,14 @@ import blog02 from "../assets/img/blog/img-2.png";
 import blog03 from "../assets/img/blog/img-3.png";
 const Blogs = () => {
   return (
-    <section className="blog_section py-8 lg:pt-12 ">
+    <section id="blogs" className="blogs_section py-8 lg:pt-12 ">
       <div className="container mx-auto">
         <h2 className="blogs_title h2 mb-[50px] text-center lg:text-left">
           Out Recent Blogs
         </h2>
         <div className="flex flex-col lg:flex-row gap-6 items-center justify-between mb-[50px]">
           {/* Blog 1 */}
-          <div className="blog_post max-w-[420px] shadow-custom2 rounded-[10px] cursor-pointer overflow-hidden group">
+          <div className="blog_item max-w-[420px] shadow-custom2 rounded-[10px] cursor-pointer overflow-hidden group">
             <div className="relative overflow-hidden">
               {/* Img */}
               <img
@@ -38,7 +38,7 @@ const Blogs = () => {
             </div>
           </div>
           {/* Blog 2 */}
-          <div className="blog_post max-w-[420px] shadow-custom2 rounded-[10px] cursor-pointer overflow-hidden group">
+          <div className="blog_item max-w-[420px] shadow-custom2 rounded-[10px] cursor-pointer overflow-hidden group">
             <div className="relative overflow-hidden">
               {/* Img */}
               <img
@@ -66,7 +66,7 @@ const Blogs = () => {
             </div>
           </div>
           {/* Blog 3 */}
-          <div className="blog_post max-w-[420px] shadow-custom2 rounded-[10px] cursor-pointer overflow-hidden group">
+          <div className="blog_item max-w-[420px] shadow-custom2 rounded-[10px] cursor-pointer overflow-hidden group">
             <div className="relative overflow-hidden">
               {/* Img */}
               <img
