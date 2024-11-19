@@ -8,7 +8,7 @@ const Department = () => {
         <div className="department_container container mx-auto">
           <div className="flex flex-col lg:flex-row gap-12">
             <div
-              className="flex flex-col gap-[30px] justify-between
+              className="department_categories flex flex-col gap-[30px] justify-between
             font-medium uppercase text-center lg:text-left text-balance text-[#9ab4b7] 
              xl:text-[17px] lg:mb-0"
             >
@@ -31,7 +31,7 @@ const Department = () => {
                 Neurology Clinic
               </div>
             </div>
-            <div className="flex-1">
+            <div className="department_info flex-1">
               <h2 className="h2 mb-[20px] text-center lg:text-start">
                 Cardiology Clinic
               </h2>

@@ -13,10 +13,10 @@ const Testimonials = () => {
     <section className="testimonials_section bg-testimonials bg-cover max-w-[1466px] mx-auto rounded-[20px] lg:min-h-[600px] py-8 lg:pt-12 ">
       <div className="testimonials_container container mx-auto">
         <div className="flex flex-col lg:flex-row items-center gap-14">
-          <div className="hidden lg:flex">
+          <div className="testimonials_img hidden lg:flex">
             <img src={testBgImg} alt="testimonials_img" />
           </div>
-          <div className="max-w-[98%] xl:max-w-[710px]">
+          <div className="testimonials_swiper max-w-[98%] xl:max-w-[710px]">
             <Swiper
               className="h-[400px]"
               loop={true}
