@@ -71,7 +71,7 @@ const MobileNav = () => {
         <ul className="flex flex-col gap-y-5">
           <li>
             <a
-              href="home"
+              href="#hero"
               className="text-secondary hover:text-accent transition-all duration-300"
             >
               Home
@@ -79,7 +79,7 @@ const MobileNav = () => {
           </li>
           <li>
             <a
-              href="doctors"
+              href="#team"
               className="text-secondary hover:text-accent transition-all duration-300"
             >
               Doctors
@@ -88,7 +88,7 @@ const MobileNav = () => {
 
           <li>
             <a
-              href="departments"
+              href="#departments"
               className="text-secondary hover:text-accent transition-all duration-300"
             >
               Departments
@@ -96,7 +96,7 @@ const MobileNav = () => {
           </li>
           <li>
             <a
-              href="services"
+              href="#services"
               className="text-secondary hover:text-accent transition-all duration-300"
             >
               Services
@@ -105,7 +105,7 @@ const MobileNav = () => {
 
           <li>
             <a
-              href="blog"
+              href="#blogs"
               className="text-secondary hover:text-accent transition-all duration-300"
             >
               Blog
@@ -113,7 +113,7 @@ const MobileNav = () => {
           </li>
           <li>
             <a
-              href="contact"
+              href="#contact"
               className="text-secondary hover:text-accent transition-all duration-300"
             >
               Contact
@@ -148,7 +148,7 @@ const DesktopNav = () => {
       <ul className="flex gap-4">
         <li>
           <a
-            href="home"
+            href="#hero"
             className="border-r pr-4 text-secondary hover:text-accent transition-all duration-300"
           >
             Home
@@ -156,7 +156,7 @@ const DesktopNav = () => {
         </li>
         <li>
           <a
-            href="doctors"
+            href="#team"
             className="border-r pr-4 text-secondary hover:text-accent transition-all duration-300"
           >
             Doctors
@@ -165,7 +165,7 @@ const DesktopNav = () => {
 
         <li>
           <a
-            href="departments"
+            href="#departments"
             className="border-r pr-4 text-secondary hover:text-accent transition-all duration-300"
           >
             Departments
@@ -173,8 +173,8 @@ const DesktopNav = () => {
         </li>
         <li>
           <a
-            href="services"
-            className="border-r pr-4text-secondary hover:text-accent transition-all duration-300"
+            href="#services"
+            className="border-r pr-4 text-secondary hover:text-accent transition-all duration-300"
           >
             Services
           </a>
@@ -182,7 +182,7 @@ const DesktopNav = () => {
 
         <li>
           <a
-            href="blog"
+            href="#blogs"
             className="border-r pr-4 text-secondary hover:text-accent transition-all duration-300"
           >
             Blog
@@ -190,7 +190,7 @@ const DesktopNav = () => {
         </li>
         <li>
           <a
-            href="contact"
+            href="#contact"
             className="text-secondary hover:text-accent transition-all duration-300"
           >
             Contact

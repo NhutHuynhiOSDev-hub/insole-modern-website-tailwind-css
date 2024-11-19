@@ -49,27 +49,33 @@ const Footer = () => {
               {/* List 1 */}
               <ul className="flex-1 flex flex-col gap-5">
                 <li>
-                  <a href="#" className="hover:text-accent transition-all">
+                  <a href="#hero" className="hover:text-accent transition-all">
                     Home
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-accent transition-all">
+                  <a href="#team" className="hover:text-accent transition-all">
                     Doctors
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-accent transition-all">
+                  <a
+                    href="#departments"
+                    className="hover:text-accent transition-all"
+                  >
                     Department
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-accent transition-all">
+                  <a
+                    href="#services"
+                    className="hover:text-accent transition-all"
+                  >
                     Services
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-accent transition-all">
+                  <a href="#blogs" className="hover:text-accent transition-all">
                     Blogs
                   </a>
                 </li>
@@ -82,7 +88,10 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-accent transition-all">
+                  <a
+                    href="#contact"
+                    className="hover:text-accent transition-all"
+                  >
                     Contact
                   </a>
                 </li>
@@ -92,7 +101,7 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-accent transition-all">
+                  <a href="#faq" className="hover:text-accent transition-all">
                     FAQs
                   </a>
                 </li>

@@ -3,7 +3,7 @@ import blog02 from "../assets/img/blog/img-2.png";
 import blog03 from "../assets/img/blog/img-3.png";
 const Blogs = () => {
   return (
-    <section className="blogs_section py-8 lg:pt-12 ">
+    <section id="blogs" className="blogs_section py-8 lg:pt-12 ">
       <div className="container mx-auto">
         <h2 className="blogs_title h2 mb-[50px] text-center lg:text-left">
           Out Recent Blogs

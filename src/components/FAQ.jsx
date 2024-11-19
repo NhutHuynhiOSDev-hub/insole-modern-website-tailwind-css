@@ -1,6 +1,6 @@
 function FAQ() {
   return (
-    <section className="faq_section py-8 lg:pt-12 ">
+    <section id="faq" className="faq_section py-8 lg:pt-12 ">
       <div className="faq_container container mx-auto">
         <h2 className="faq_title h2 text-center mb-[50px]">We've got answer</h2>
         {/* Item Wrapper */}

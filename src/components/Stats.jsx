@@ -1,6 +1,6 @@
 const Stats = () => {
   return (
-    <section className="stast_section py-8 lg:pt-12 ">
+    <section id="stats" className="stast_section py-8 lg:pt-12 ">
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row gap-6 justify-between">
           <div className="stats_item flex flex-1 flex-col lg:border-r items-center">

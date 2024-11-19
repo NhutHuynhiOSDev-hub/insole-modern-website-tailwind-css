@@ -11,7 +11,7 @@ import { Pagination } from "swiper/modules";
 
 const Team = () => {
   return (
-    <section className="team_section py-8 lg:pt-12 ">
+    <section id="team" className="team_section py-8 lg:pt-12 ">
       <div className="team_container container mx-auto">
         <h2 className="team_title h2 mb-8 text-center lg:text-left">
           Our Team
